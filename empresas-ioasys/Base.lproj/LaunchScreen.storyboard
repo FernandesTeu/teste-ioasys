@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,9 +12,34 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mBe-3I-ZhR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_home" translatesAutoresizingMaskIntoConstraints="NO" id="ng4-kd-vNI">
+                                        <rect key="frame" x="114.5" y="425.5" width="185" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="185" id="UNM-dK-tqu"/>
+                                            <constraint firstAttribute="height" constant="45" id="iin-4f-07T"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.8784313725490196" green="0.11764705882352941" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ng4-kd-vNI" firstAttribute="centerX" secondItem="mBe-3I-ZhR" secondAttribute="centerX" id="3O8-QQ-vSv"/>
+                                    <constraint firstItem="ng4-kd-vNI" firstAttribute="centerY" secondItem="mBe-3I-ZhR" secondAttribute="centerY" id="xpd-FK-tcc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="mBe-3I-ZhR" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Hcv-aU-711"/>
+                            <constraint firstItem="mBe-3I-ZhR" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="S3u-mN-zzI"/>
+                            <constraint firstAttribute="bottom" secondItem="mBe-3I-ZhR" secondAttribute="bottom" id="piB-7P-kgZ"/>
+                            <constraint firstAttribute="trailing" secondItem="mBe-3I-ZhR" secondAttribute="trailing" id="qNq-j4-8Sr"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -22,4 +48,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo_home" width="61.666667938232422" height="15"/>
+    </resources>
 </document>

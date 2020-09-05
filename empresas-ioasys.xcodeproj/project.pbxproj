@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C34CAA6F2501673C0038F420 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34CAA6E2501673C0038F420 /* HomeViewController.swift */; };
+		C34CAA73250286FE0038F420 /* CompaniesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34CAA72250286FE0038F420 /* CompaniesApi.swift */; };
+		C34CAA7925037F070038F420 /* CompaniesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34CAA7825037F070038F420 /* CompaniesDetailViewController.swift */; };
 		C378265E24FEBAAB00417FAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378265D24FEBAAB00417FAA /* AppDelegate.swift */; };
 		C378266024FEBAAB00417FAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378265F24FEBAAB00417FAA /* SceneDelegate.swift */; };
 		C378266224FEBAAB00417FAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378266124FEBAAB00417FAA /* ViewController.swift */; };
 		C378266524FEBAAB00417FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C378266324FEBAAB00417FAA /* Main.storyboard */; };
 		C378266724FEBAB300417FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C378266624FEBAB300417FAA /* Assets.xcassets */; };
 		C378266A24FEBAB300417FAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C378266824FEBAB300417FAA /* LaunchScreen.storyboard */; };
+		C378267524FEC24500417FAA /* Rubik-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C378267324FEC24500417FAA /* Rubik-VariableFont_wght.ttf */; };
+		C378267624FEC24500417FAA /* Rubik-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C378267424FEC24500417FAA /* Rubik-Italic-VariableFont_wght.ttf */; };
+		C378267D24FED57D00417FAA /* Companies.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378267C24FED57D00417FAA /* Companies.swift */; };
+		C3EDCA4A2500232500709F6F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EDCA492500232500709F6F /* User.swift */; };
+		C3EDCA4C250032C300709F6F /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EDCA4B250032C300709F6F /* UserController.swift */; };
+		C3EDCA4E250033B900709F6F /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EDCA4D250033B900709F6F /* UserApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C34CAA6E2501673C0038F420 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C34CAA72250286FE0038F420 /* CompaniesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesApi.swift; sourceTree = "<group>"; };
+		C34CAA7825037F070038F420 /* CompaniesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesDetailViewController.swift; sourceTree = "<group>"; };
 		C378265A24FEBAAB00417FAA /* empresas-ioasys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "empresas-ioasys.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C378265D24FEBAAB00417FAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C378265F24FEBAAB00417FAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,12 @@
 		C378266624FEBAB300417FAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C378266924FEBAB300417FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C378266B24FEBAB300417FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C378267324FEC24500417FAA /* Rubik-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		C378267424FEC24500417FAA /* Rubik-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		C378267C24FED57D00417FAA /* Companies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Companies.swift; sourceTree = "<group>"; };
+		C3EDCA492500232500709F6F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C3EDCA4B250032C300709F6F /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		C3EDCA4D250033B900709F6F /* UserApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C34CAA7425037BEA0038F420 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3EDCA492500232500709F6F /* User.swift */,
+				C378267C24FED57D00417FAA /* Companies.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C34CAA7525037C050038F420 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C3EDCA4D250033B900709F6F /* UserApi.swift */,
+				C34CAA72250286FE0038F420 /* CompaniesApi.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C34CAA7625037C270038F420 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C378266124FEBAAB00417FAA /* ViewController.swift */,
+				C34CAA6E2501673C0038F420 /* HomeViewController.swift */,
+				C34CAA7825037F070038F420 /* CompaniesDetailViewController.swift */,
+				C3EDCA4B250032C300709F6F /* UserController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C34CAA7725037C3A0038F420 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C378266324FEBAAB00417FAA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C378265124FEBAAB00417FAA = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +111,27 @@
 		C378265C24FEBAAB00417FAA /* empresas-ioasys */ = {
 			isa = PBXGroup;
 			children = (
+				C378267224FEC23200417FAA /* fonts */,
 				C378265D24FEBAAB00417FAA /* AppDelegate.swift */,
 				C378265F24FEBAAB00417FAA /* SceneDelegate.swift */,
-				C378266124FEBAAB00417FAA /* ViewController.swift */,
-				C378266324FEBAAB00417FAA /* Main.storyboard */,
+				C34CAA7625037C270038F420 /* Controller */,
+				C34CAA7425037BEA0038F420 /* Model */,
+				C34CAA7525037C050038F420 /* Services */,
+				C34CAA7725037C3A0038F420 /* View */,
 				C378266624FEBAB300417FAA /* Assets.xcassets */,
 				C378266824FEBAB300417FAA /* LaunchScreen.storyboard */,
 				C378266B24FEBAB300417FAA /* Info.plist */,
 			);
 			path = "empresas-ioasys";
+			sourceTree = "<group>";
+		};
+		C378267224FEC23200417FAA /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C378267424FEC24500417FAA /* Rubik-Italic-VariableFont_wght.ttf */,
+				C378267324FEC24500417FAA /* Rubik-VariableFont_wght.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +192,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C378267624FEC24500417FAA /* Rubik-Italic-VariableFont_wght.ttf in Resources */,
 				C378266A24FEBAB300417FAA /* LaunchScreen.storyboard in Resources */,
 				C378266724FEBAB300417FAA /* Assets.xcassets in Resources */,
 				C378266524FEBAAB00417FAA /* Main.storyboard in Resources */,
+				C378267524FEC24500417FAA /* Rubik-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +207,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3EDCA4C250032C300709F6F /* UserController.swift in Sources */,
+				C3EDCA4E250033B900709F6F /* UserApi.swift in Sources */,
 				C378266224FEBAAB00417FAA /* ViewController.swift in Sources */,
+				C378267D24FED57D00417FAA /* Companies.swift in Sources */,
 				C378265E24FEBAAB00417FAA /* AppDelegate.swift in Sources */,
+				C34CAA73250286FE0038F420 /* CompaniesApi.swift in Sources */,
+				C3EDCA4A2500232500709F6F /* User.swift in Sources */,
+				C34CAA7925037F070038F420 /* CompaniesDetailViewController.swift in Sources */,
+				C34CAA6F2501673C0038F420 /* HomeViewController.swift in Sources */,
 				C378266024FEBAAB00417FAA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
